@@ -12,4 +12,18 @@
 	<context:annotation-config />
 	<context:component-scan base-package="com.pluralsight" />
 
+
+	<!-- Bean to connect to the aws db I created -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="ridetracker.cx3cgi2eplla.us-east-1.rds.amazonaws.com:3306" />
+		<property name="username" value="root" />
+		<property name="password" value="DBtesting1985" />
+	</bean>
+
+	<!-- bean to connect the datasource to JDBCTemplate -->
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
 </beans>
