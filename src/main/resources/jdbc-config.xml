@@ -15,8 +15,8 @@
 
 	<!-- Bean to connect to the aws db I created -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="ridetracker.cx3cgi2eplla.us-east-1.rds.amazonaws.com:3306" />
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://ridetracker.cx3cgi2eplla.us-east-1.rds.amazonaws.com:3306/ride_tracker" />
 		<property name="username" value="root" />
 		<property name="password" value="DBtesting1985" />
 	</bean>
