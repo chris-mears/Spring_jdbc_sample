@@ -10,4 +10,7 @@ public interface RideRepository {
 
 	List<Ride> getRides();
 
+	Ride getRide(Integer id);
+
+	Ride updateRide(Ride ride);
 }

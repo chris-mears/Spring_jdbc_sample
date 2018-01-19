@@ -70,6 +70,7 @@ public class RideRepositoryImpl implements RideRepository {
 
 
 	//Route to get one ride from db
+	@Override
 	public Ride getRide(Integer id) {
 		Ride ride = jdbcTemplate.queryForObject("SELECT * FROM ride WHERE id = ?", new RideRowMapper(), id);
 
@@ -84,5 +85,12 @@ public class RideRepositoryImpl implements RideRepository {
 
 		return rides;
 	}
-	
+
+	@Override
+	public Ride updateRide(Ride ride) {
+		jdbcTemplate.update("update ride set name = ?, duration = ? where id = ?",
+				ride.getName(), ride.getDuration(), ride.getId());
+
+		return ride;
+	}
 }
