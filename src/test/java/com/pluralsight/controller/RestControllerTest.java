@@ -21,7 +21,7 @@ public class RestControllerTest {
 		ride.setName("Pink Fork Trail");
 		ride.setDuration(40);
 
-		ride = restTemplate.postForObject("http://localhost:8080/ride", ride, Ride.class);
+		restTemplate.postForObject("http://localhost:8080/ride", ride, Ride.class);
 	}
 
 	@Test(timeout=3000)

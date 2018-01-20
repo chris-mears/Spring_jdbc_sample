@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f230e3-e4df-420b-93ba-dffb24e23661" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/ServiceError.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +58,8 @@
       <file leaf-file-name="RestControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,13 +92,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/util/SerivceError.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/util/ServiceError.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" />
       </list>
     </option>
   </component>
@@ -259,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestControllerTest">
+  <component name="RunManager" selected="JUnit.RestControllerTest.testCreateRide">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -548,9 +537,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testBatchUpdate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testBatchUpdate" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testException" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRides" />
       </list>
@@ -571,8 +560,16 @@
       <updated>1516320280715</updated>
       <workItem from="1516320282082" duration="5611000" />
       <workItem from="1516362427474" duration="4089000" />
-      <workItem from="1516463970622" duration="6041000" />
+      <workItem from="1516463970622" duration="6235000" />
     </task>
+    <task id="LOCAL-00001" summary="finished spring jdbc sample with full Crud plus batch update, exception handling and transaction handling">
+      <created>1516475854579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516475854579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -588,9 +585,6 @@
     <history-entry file="RestControllerTest_testBatchUpdate - 2018.01.20 at 14h 15m 08s.xml">
       <configuration name="RestControllerTest.testBatchUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 13h 43m 41s.xml">
-      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 01m 44s.xml">
       <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
@@ -603,16 +597,18 @@
     <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 14m 46s.xml">
       <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testException - 2018.01.20 at 13h 40m 01s.xml">
-      <configuration name="RestControllerTest.testException" configurationId="JUnit" />
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 18m 46s.xml">
+      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 18m 55s.xml">
+      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15741000" />
+    <option name="totallyTimeSpent" value="15935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -632,10 +628,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27083334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -654,6 +650,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished spring jdbc sample with full Crud plus batch update, exception handling and transaction handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished spring jdbc sample with full Crud plus batch update, exception handling and transaction handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
