@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
@@ -86,6 +87,7 @@ public class RideRepositoryImpl implements RideRepository {
 		return rides;
 	}
 
+	//Route to update an already exsisting ride in the db
 	@Override
 	public Ride updateRide(Ride ride) {
 		jdbcTemplate.update("update ride set name = ?, duration = ? where id = ?",
@@ -93,4 +95,23 @@ public class RideRepositoryImpl implements RideRepository {
 
 		return ride;
 	}
+
+
+	//This is a batch update for all rides that will work with the service layer to update ride_date
+	@Override
+	public void updateRides(List<Object[]> pairs) {
+		jdbcTemplate.batchUpdate("UPDATE ride SET ride_date = ? WHERE id = ?", pairs);
+	}
+
+	//Delete route for a ride. This route is also using named parameters to connect the id.
+    @Override
+    public void deleteRide(Integer id) {
+        //jdbcTemplate.update("DELETE from ride WHERE id = ?", id);
+        NamedParameterJdbcTemplate namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(jdbcTemplate);
+
+        Map<String, Object> paramMap = new HashMap<>();
+        paramMap.put("id", id);
+
+        namedParameterJdbcTemplate.update("DELETE from ride WHERE id = :id", paramMap);
+    }
 }

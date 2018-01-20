@@ -7,12 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f230e3-e4df-420b-93ba-dffb24e23661" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/ServiceError.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,106 +69,9 @@
       <file leaf-file-name="RestControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="60" column="95" lean-forward="true" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
+            <state relative-caret-position="510">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="44" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-              <folding>
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideRepositoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-              <folding>
-                <marker date="1516366419190" expanded="true" signature="1086:1132" ph="insert into ride... " />
-                <marker date="1516366419190" expanded="true" signature="1539:1585" ph="insert into ride... " />
-                <marker date="1516366419190" expanded="true" signature="2443:2474" ph="SELECT * FRO... ride" />
-                <marker date="1516366419190" expanded="true" signature="2646:2664" ph="SELECt * FRO... ride" />
-                <marker date="1516366419190" expanded="true" signature="2781:2805" ph="update ride... " />
-                <marker date="1516366419190" expanded="true" signature="2781:2832" ph="update ride... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RideRowMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ride.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -187,16 +97,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" />
+        <option value="src:table:/2a5b7221/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/ride_tracker.ride" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/util/SerivceError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/util/ServiceError.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java" />
       </list>
     </option>
   </component>
@@ -208,13 +121,12 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="720" />
     <option name="height" value="878" />
@@ -237,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,13 +182,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pluralsight" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_jdbc_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_jdbc_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestControllerTest.testUpdateRide">
+  <component name="RunManager" selected="JUnit.RestControllerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -348,6 +306,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="RestControllerTest.testBatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ride_tracker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pluralsight.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.controller.RestControllerTest" />
+      <option name="METHOD_NAME" value="testBatchUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="RestControllerTest.testCreateRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -373,7 +356,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RestControllerTest.testGetRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestControllerTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.controller.*" />
@@ -385,7 +368,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pluralsight.controller" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.controller.RestControllerTest" />
-      <option name="METHOD_NAME" value="testGetRide" />
+      <option name="METHOD_NAME" value="testException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -411,31 +394,6 @@
       <option name="PACKAGE_NAME" value="com.pluralsight.controller" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.controller.RestControllerTest" />
       <option name="METHOD_NAME" value="testGetRides" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RestControllerTest.testUpdateRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ride_tracker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pluralsight.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.controller.RestControllerTest" />
-      <option name="METHOD_NAME" value="testUpdateRide" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -582,19 +540,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.SampleApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRides" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRide" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testUpdateRide" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRides" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testBatchUpdate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testUpdateRide" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRide" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRides" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RestControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testBatchUpdate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testCreateRide" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testException" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RestControllerTest.testGetRides" />
       </list>
     </recent_temporary>
   </component>
@@ -612,47 +570,48 @@
       <option name="presentableId" value="Default" />
       <updated>1516320280715</updated>
       <workItem from="1516320282082" duration="5611000" />
-      <workItem from="1516362427474" duration="4039000" />
+      <workItem from="1516362427474" duration="4089000" />
+      <workItem from="1516463970622" duration="6041000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestControllerTest_testCreateRide - 2018.01.19 at 07h 26m 02s.xml">
+    <history-entry file="RestControllerTest - 2018.01.20 at 14h 15m 43s.xml">
+      <configuration name="RestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testBatchUpdate - 2018.01.20 at 13h 46m 08s.xml">
+      <configuration name="RestControllerTest.testBatchUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testBatchUpdate - 2018.01.20 at 14h 02m 38s.xml">
+      <configuration name="RestControllerTest.testBatchUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testBatchUpdate - 2018.01.20 at 14h 15m 08s.xml">
+      <configuration name="RestControllerTest.testBatchUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 13h 43m 41s.xml">
       <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testCreateRide - 2018.01.19 at 07h 26m 33s.xml">
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 01m 44s.xml">
       <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testGetRide - 2018.01.19 at 07h 44m 24s.xml">
-      <configuration name="RestControllerTest.testGetRide" configurationId="JUnit" />
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 01m 59s.xml">
+      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testGetRide - 2018.01.19 at 07h 54m 50s.xml">
-      <configuration name="RestControllerTest.testGetRide" configurationId="JUnit" />
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 14m 39s.xml">
+      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testGetRides - 2018.01.19 at 07h 18m 55s.xml">
-      <configuration name="RestControllerTest.testGetRides" configurationId="JUnit" />
+    <history-entry file="RestControllerTest_testCreateRide - 2018.01.20 at 14h 14m 46s.xml">
+      <configuration name="RestControllerTest.testCreateRide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestControllerTest_testGetRides - 2018.01.19 at 07h 26m 19s.xml">
-      <configuration name="RestControllerTest.testGetRides" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestControllerTest_testGetRides - 2018.01.19 at 07h 26m 45s.xml">
-      <configuration name="RestControllerTest.testGetRides" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestControllerTest_testUpdateRide - 2018.01.19 at 07h 54m 03s.xml">
-      <configuration name="RestControllerTest.testUpdateRide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestControllerTest_testUpdateRide - 2018.01.19 at 07h 54m 55s.xml">
-      <configuration name="RestControllerTest.testUpdateRide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestControllerTest_testUpdateRide - 2018.01.19 at 07h 55m 22s.xml">
-      <configuration name="RestControllerTest.testUpdateRide" configurationId="JUnit" />
+    <history-entry file="RestControllerTest_testException - 2018.01.20 at 13h 40m 01s.xml">
+      <configuration name="RestControllerTest.testException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9650000" />
+    <option name="totallyTimeSpent" value="15741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="22" width="720" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,11 +620,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41944444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -675,7 +634,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27083334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -686,7 +646,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -697,7 +656,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -711,15 +672,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#1479#1480#0" expanded="false" />
+            <element signature="e#1515#1516#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <marker date="1516475653248" expanded="true" signature="1162:1208" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="1615:1661" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="2519:2550" ph="SELECT * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2722:2740" ph="SELECt * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2912:2936" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="2912:2963" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="3228:3270" ph="UPDATE ride... " />
+            <marker date="1516475653248" expanded="true" signature="3460:3489" ph="DELETE from ride... " />
+            <marker date="1516475653248" expanded="true" signature="3740:3771" ph="DELETE from ride... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,12 +788,14 @@
         <state relative-caret-position="165">
           <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#1479#1480#0" expanded="false" />
+            <element signature="e#1515#1516#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -760,20 +813,16 @@
         <state relative-caret-position="300">
           <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <marker date="1516366419190" expanded="true" signature="1086:1132" ph="insert into ride... " />
-            <marker date="1516366419190" expanded="true" signature="1539:1585" ph="insert into ride... " />
-            <marker date="1516366419190" expanded="true" signature="2443:2474" ph="SELECT * FRO... ride" />
-            <marker date="1516366419190" expanded="true" signature="2646:2664" ph="SELECt * FRO... ride" />
-            <marker date="1516366419190" expanded="true" signature="2781:2805" ph="update ride... " />
-            <marker date="1516366419190" expanded="true" signature="2781:2832" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="1162:1208" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="1615:1661" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="2519:2550" ph="SELECT * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2722:2740" ph="SELECt * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2912:2936" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="2912:2963" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="3228:3270" ph="UPDATE ride... " />
+            <marker date="1516475653248" expanded="true" signature="3460:3489" ph="DELETE from ride... " />
+            <marker date="1516475653248" expanded="true" signature="3740:3771" ph="DELETE from ride... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -785,101 +834,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc-config.xml">
+    <entry file="das://src:table:/2a5b7221/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/ride_tracker.ride">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java">
+    <entry file="das://table:/2a5b7221/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/ride_tracker.ride">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/util/ServiceError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="99" lean-forward="false" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/controller/RideController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="600">
+          <caret line="53" column="41" lean-forward="false" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/RideServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="537">
+          <caret line="55" column="93" lean-forward="false" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
           <folding>
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#1479#1480#0" expanded="false" />
+            <element signature="e#1515#1516#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/repository/RideRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        <state relative-caret-position="612">
+          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding>
-            <marker date="1516366419190" expanded="true" signature="1086:1132" ph="insert into ride... " />
-            <marker date="1516366419190" expanded="true" signature="1539:1585" ph="insert into ride... " />
-            <marker date="1516366419190" expanded="true" signature="2443:2474" ph="SELECT * FRO... ride" />
-            <marker date="1516366419190" expanded="true" signature="2646:2664" ph="SELECt * FRO... ride" />
-            <marker date="1516366419190" expanded="true" signature="2781:2805" ph="update ride... " />
-            <marker date="1516366419190" expanded="true" signature="2781:2832" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="1162:1208" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="1615:1661" ph="insert into ride... " />
+            <marker date="1516475653248" expanded="true" signature="2519:2550" ph="SELECT * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2722:2740" ph="SELECt * FRO... ride" />
+            <marker date="1516475653248" expanded="true" signature="2912:2936" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="2912:2963" ph="update ride... " />
+            <marker date="1516475653248" expanded="true" signature="3228:3270" ph="UPDATE ride... " />
+            <marker date="1516475653248" expanded="true" signature="3460:3489" ph="DELETE from ride... " />
+            <marker date="1516475653248" expanded="true" signature="3740:3771" ph="DELETE from ride... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/util/RideRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/model/Ride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1570cfaf-ca3f-40b6-a7d0-9e6d53c72f57/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pluralsight/controller/RestControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="60" column="95" lean-forward="true" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
+        <state relative-caret-position="510">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>

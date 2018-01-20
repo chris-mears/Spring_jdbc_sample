@@ -6,6 +6,8 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+
+//This is a rowMapper that connects the fields of a ride Java Object with a row in the db
 public class RideRowMapper implements RowMapper<Ride> {
 
     @Override

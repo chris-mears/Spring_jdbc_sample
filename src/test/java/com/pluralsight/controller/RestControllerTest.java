@@ -18,7 +18,7 @@ public class RestControllerTest {
 		RestTemplate restTemplate = new RestTemplate();
 
 		Ride ride = new Ride();
-		ride.setName("Red Fork Trail");
+		ride.setName("Pink Fork Trail");
 		ride.setDuration(40);
 
 		ride = restTemplate.postForObject("http://localhost:8080/ride", ride, Ride.class);
@@ -59,5 +59,37 @@ public class RestControllerTest {
 		restTemplate.put("http://localhost:8080/ride", ride);
 
 		System.out.println("Ride name: " + ride.getName() + "Ride Duration: " + ride.getDuration());
+	}
+
+	@Test(timeout=3000)
+	public void testBatchUpdate() {
+		RestTemplate restTemplate = new RestTemplate();
+
+		restTemplate.getForObject("httP://localhost:8080/batch", Object.class);
+
+	}
+
+	@Test(timeout=3000)
+	public void testDelete() {
+		RestTemplate restTemplate = new RestTemplate();
+
+		Ride ride = new Ride();
+		ride.setName("Red Fork Trail");
+		ride.setDuration(40);
+
+		ride = restTemplate.postForObject("http://localhost:8080/ride", ride, Ride.class);
+
+
+		restTemplate.delete("http://localhost:8080/delete/" + ride.getId());
+
+	}
+
+	//Test to check the error Handling
+	@Test(timeout=3000)
+	public void testException() {
+		RestTemplate restTemplate = new RestTemplate();
+
+		restTemplate.getForObject("http://localhost:8080/test", Ride.class);
+
 	}
 }

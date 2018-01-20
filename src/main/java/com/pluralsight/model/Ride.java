@@ -1,5 +1,10 @@
 package com.pluralsight.model;
 
+import sun.jvm.hotspot.debugger.DataSource;
+
+import java.util.Date;
+
+//Model for the Ride object
 public class Ride {
 
 	private Integer id;
@@ -13,6 +18,7 @@ public class Ride {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
 
 	public int getDuration() {
 		return duration;
